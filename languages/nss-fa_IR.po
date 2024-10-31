@@ -1,0 +1,1608 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart SMS For Wordpress\n"
+"POT-Creation-Date: 2022-05-19 12:04+0430\n"
+"PO-Revision-Date: 2022-05-19 12:10+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: nirweb-smart-sms.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: core/Nirweb_smart_sms_data.php:140 core/Nirweb_smart_sms_data.php:182
+#: core/Nirweb_smart_sms_data.php:246 core/Nirweb_smart_sms_data.php:303
+#: core/Nirweb_smart_sms_data.php:340 core/Nirweb_smart_sms_data.php:399
+msgid "on hold"
+msgstr "سفارشات در انتظار بررسی"
+
+#: core/Nirweb_smart_sms_data.php:143 core/Nirweb_smart_sms_data.php:187
+#: core/Nirweb_smart_sms_data.php:249 core/Nirweb_smart_sms_data.php:306
+#: core/Nirweb_smart_sms_data.php:345 core/Nirweb_smart_sms_data.php:402
+msgid "processing"
+msgstr "سفارشات در حال انجام"
+
+#: core/Nirweb_smart_sms_data.php:146 core/Nirweb_smart_sms_data.php:192
+#: core/Nirweb_smart_sms_data.php:252 core/Nirweb_smart_sms_data.php:309
+#: core/Nirweb_smart_sms_data.php:350 core/Nirweb_smart_sms_data.php:405
+msgid "completed"
+msgstr "سفارشات تکمیل شده"
+
+#: core/Nirweb_smart_sms_data.php:149 core/Nirweb_smart_sms_data.php:197
+#: core/Nirweb_smart_sms_data.php:255 core/Nirweb_smart_sms_data.php:312
+#: core/Nirweb_smart_sms_data.php:355 core/Nirweb_smart_sms_data.php:408
+msgid "cancelled"
+msgstr "سفارشات لغو شده"
+
+#: core/Nirweb_smart_sms_data.php:152 core/Nirweb_smart_sms_data.php:202
+#: core/Nirweb_smart_sms_data.php:258 core/Nirweb_smart_sms_data.php:315
+#: core/Nirweb_smart_sms_data.php:360 core/Nirweb_smart_sms_data.php:411
+msgid "refunded"
+msgstr "سفارشات مسترد شده"
+
+#: core/Nirweb_smart_sms_data.php:155 core/Nirweb_smart_sms_data.php:207
+#: core/Nirweb_smart_sms_data.php:261 core/Nirweb_smart_sms_data.php:318
+#: core/Nirweb_smart_sms_data.php:365 core/Nirweb_smart_sms_data.php:414
+msgid "failed"
+msgstr "سفارشات ناموفق"
+
+#: core/core.php:73
+msgid "Tell me when it's back in stock"
+msgstr "وقتی موجود شد اطلاع بده"
+
+#: core/core.php:77 core/core.php:99
+msgid "Your Phonenumber"
+msgstr "شماره همراه  شما"
+
+#: core/core.php:78 core/core.php:100
+msgid "Submit"
+msgstr "ارسال"
+
+#: core/core.php:95
+msgid "Tell me when it's on sale"
+msgstr "وقتی تخفیف دار شد اطلاع بده"
+
+#: core/core.php:120 core/core.php:184
+msgid "Invalid Request"
+msgstr ""
+
+#: core/core.php:127 core/core.php:191
+msgid "Fill out all fields"
+msgstr "لطفا تمام فیلدهای مورد نیاز را پر کنید"
+
+#: core/core.php:133 core/core.php:197
+msgid "enter a valid phoneumber"
+msgstr "یک تلفن همراه معتبر وارد کنید"
+
+#: core/core.php:144
+msgid "we have your number.we'll notify you when the product is back in stock"
+msgstr "ما شماره شما را داریم. وقتی محصول موجودشد به شما اطلاع میدهیم"
+
+#: core/core.php:163 core/core.php:226
+msgid "something went wrong"
+msgstr "مشکلی پیش آمده است"
+
+#: core/core.php:168
+msgid ""
+"You phoneumber is successfully saved.we'll notify you when the product is "
+"back in stock"
+msgstr ""
+"شماره تماس شما با موفقیت ذخیره شد .وقتی محصول موجود شد به شما اطلاع خواهیم "
+"داد."
+
+#: core/core.php:207
+msgid "we have your number.we'll notify you when the product is on sale"
+msgstr "ما شماره شما را داریم. وقتی محصول تخفیف دار به شما اطلاع میدهیم"
+
+#: core/core.php:231
+msgid ""
+"You phoneumber is successfully saved.we'll notify you when the product is on "
+"sale"
+msgstr ""
+"شماره تماس شما با موفقیت ذخیره شد .وقتی محصول تخفیف دار شد به شما اطلاع "
+"خواهیم داد."
+
+#: core/core.php:241
+msgid "notification"
+msgstr "اطلاع رسانی"
+
+#: core/core.php:255
+msgid "notify users that product is back in stock"
+msgstr "اطلاع رسانی به کاربران وقتی محصول موجود شد"
+
+#: core/core.php:262
+msgid "notify users that product is on sale"
+msgstr "اطلاع رسانی به کاربران وقتی محصول تخفیف دار شد"
+
+#: core/core.php:311 core/core.php:312 settings/settings.php:15
+#: settings/settings.php:16 settings/settings.php:26
+#, fuzzy
+#| msgid "Settings saved."
+msgid "Settings"
+msgstr "تنظیمات ذخیره شد."
+
+#: core/core.php:319 core/core.php:320
+msgid "Nirweb Smart SMS"
+msgstr "پیامک نیروب"
+
+#: core/core.php:328 option/options/woocommerce/cancelled.php:17
+#: option/options/woocommerce/cancelled.php:79
+#: option/options/woocommerce/cancelled.php:141
+#: option/options/woocommerce/completed.php:16
+#: option/options/woocommerce/completed.php:78
+#: option/options/woocommerce/completed.php:140
+#: option/options/woocommerce/failed.php:16
+#: option/options/woocommerce/failed.php:78
+#: option/options/woocommerce/failed.php:140
+#: option/options/woocommerce/on-hold.php:16
+#: option/options/woocommerce/on-hold.php:78
+#: option/options/woocommerce/on-hold.php:140
+#: option/options/woocommerce/processing.php:16
+#: option/options/woocommerce/processing.php:78
+#: option/options/woocommerce/processing.php:140
+#: option/options/woocommerce/refunded.php:17
+#: option/options/woocommerce/refunded.php:79
+#: option/options/woocommerce/refunded.php:141
+msgid "Send SMS"
+msgstr "ارسال پیامک"
+
+#: core/core.php:332 core/core.php:598
+msgid "Send SMS To ALL Users"
+msgstr "ارسال پیام به همه کاربران"
+
+#: core/core.php:332
+msgid "send sms to all users."
+msgstr "به همه کاربرانی که ثبت نام کرده اند پیام بفرستید."
+
+#: core/core.php:390 core/core.php:689
+msgid "Send SMS To One User"
+msgstr "ارسال پیام به یک کاربر"
+
+#: core/core.php:390
+msgid "Send SMS To the user you want."
+msgstr "به یک کاربر خاص پیام بفرستید."
+
+#: core/core.php:448 core/core.php:799
+msgid "Send SMS To Product Customers"
+msgstr "ارسال پیام به مشتریان محصول"
+
+#: core/core.php:448
+msgid "Send SMS to users who have bought a product"
+msgstr "به همه کاربرانی که یک محصول خاص را خریداری کرده اند پیام بفرستید"
+
+#: core/core.php:601 core/core.php:692 core/core.php:802 core/core.php:1282
+msgid "professional version and tutorial"
+msgstr "فعال در نسخه حرفه ای"
+
+#: core/core.php:602 core/core.php:693 core/core.php:803 core/core.php:1283
+msgid ""
+"to use options below , you can easily purchase and download the pro version "
+"of the plugin form the link below"
+msgstr ""
+"برای استفاده از امکانات این بخش میتوانید نسخه حرفه ای آن را از لینک زیر تهیه "
+"و دانلود کنید"
+
+#: core/core.php:610 core/core.php:710 core/core.php:825
+msgid "pattern code"
+msgstr "کد پترن"
+
+#: core/core.php:619 core/core.php:719
+msgid ""
+"use variable display_name for user's display name in your pattern.if you are "
+"using melipayamak use 0."
+msgstr ""
+"از متغیر display_name برای نام کاربر در پترن خود استفاده کنید.اگر از ملی "
+"پیامک استفاده میکنید از 0 استفاده کنید."
+
+#: core/core.php:622 core/core.php:722 core/core.php:836
+msgid "Send"
+msgstr "ارسال"
+
+#: core/core.php:701
+msgid "select the user"
+msgstr "انتخاب کاربر"
+
+#: core/core.php:703 core/core.php:813
+#: option/options/woocommerce/first-purchase.php:23
+#: option/options/wp/post.php:21
+msgid "select an option"
+msgstr "یک گزینه را انتخاب کنید"
+
+#: core/core.php:811
+msgid "select the product"
+msgstr "انتخاب محصول"
+
+#: core/core.php:834
+msgid ""
+"use product_title for product's title and display_name for users's "
+"displayname in your pattern.if you are using melipayamak use 0 for "
+"displayname and 1 for product title."
+msgstr ""
+"از متغیر display_name برای نام کاربر و product_title برای نام محصول در پترن "
+"خود استفاده کنید.اگر از ملی پیامک استفاده میکنید از 0 برای نام نمایشی کاربر "
+"و 1 برای نام محصول استفاده کنید"
+
+#: core/core.php:854
+msgid "Subscribers"
+msgstr "مشترکین"
+
+#: core/core.php:858 core/core.php:1130 core/core.php:1204
+msgid "all customers"
+msgstr "تمام مشتری ها"
+
+#: core/core.php:858
+msgid "export all woocommerce billing phones"
+msgstr "خروجی شماره تماس مشتریان ووکامرس"
+
+#: core/core.php:917
+msgid "product customers"
+msgstr "مشتریان محصولات"
+
+#: core/core.php:917
+msgid "export product customer phonenumbers"
+msgstr "خروجی شماره مشتریان محصول ووکامرس"
+
+#: core/core.php:984 core/core.php:1275
+msgid "newsletter"
+msgstr "خبرنامه"
+
+#: core/core.php:984
+msgid "export newsletter phonenumbers"
+msgstr "خروجی شماره های ثبت شده خبرنامه"
+
+#: core/includes.php:38
+msgid "please wait till all texts are sent"
+msgstr "لطفا صبر کنید تا تمام متون ارسال شود"
+
+#: core/includes.php:39
+msgid "sent successfully"
+msgstr "با موفقیت ارسال شد"
+
+#: core/subscribers/newsletter/export_newsletter_phones.php:6
+msgid "Stock"
+msgstr "موجود شد"
+
+#: core/subscribers/newsletter/export_newsletter_phones.php:7
+msgid "Onsale"
+msgstr "حراج"
+
+#: core/subscribers/newsletter/export_newsletter_phones.php:8
+#: option/options/wp/comments.php:3
+msgid "Comments"
+msgstr "دیدگاه ها"
+
+#: core/subscribers/newsletter/export_newsletter_phones.php:9
+#: option/options/wp/newsletters.php:3
+msgid "Newsletter"
+msgstr "خبرنامه"
+
+#: option/classes/admin-options.class.php:230
+#, fuzzy
+#| msgid "Error while saving."
+msgid "Error while saving the changes."
+msgstr "خطا در ذخیره سازی."
+
+#: option/classes/admin-options.class.php:290
+#, fuzzy
+#| msgid "sent successfully"
+msgid "Settings successfully imported."
+msgstr "با موفقیت ارسال شد"
+
+#: option/classes/admin-options.class.php:302
+#: option/classes/admin-options.class.php:318
+#, fuzzy
+#| msgid "Default options restored."
+msgid "Default settings restored."
+msgstr "گزینه های پیش فرض بازیابی شد."
+
+#: option/classes/admin-options.class.php:389
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+#: option/classes/admin-options.class.php:570
+msgid "You have unsaved changes, save your changes!"
+msgstr ""
+
+#: option/classes/admin-options.class.php:572
+#, fuzzy
+#| msgid "show all options"
+msgid "show all settings"
+msgstr "نمایش همه گزینه ها"
+
+#: option/classes/admin-options.class.php:574
+msgid "Search..."
+msgstr ""
+
+#: option/classes/admin-options.class.php:577
+#: option/classes/admin-options.class.php:700
+msgid "Save"
+msgstr "ذخیره"
+
+#: option/classes/admin-options.class.php:577
+#: option/classes/admin-options.class.php:700
+msgid "Saving..."
+msgstr "در حال ذخیره ..."
+
+#: option/classes/admin-options.class.php:578
+#: option/classes/admin-options.class.php:701
+msgid "Reset Section"
+msgstr "ریست کردن بخش"
+
+#: option/classes/admin-options.class.php:578
+#: option/classes/admin-options.class.php:701
+msgid "Are you sure to reset this section options?"
+msgstr "آیا مطمئن هستید که گزینه های این بخش را دوباره تنظیم می کنید؟"
+
+#: option/classes/admin-options.class.php:579
+#: option/classes/admin-options.class.php:702
+msgid "Reset All"
+msgstr "ریست تمامی مقادیر"
+
+#: option/classes/admin-options.class.php:579
+#: option/classes/admin-options.class.php:702
+#, fuzzy
+#| msgid "Reset All"
+msgid "Reset"
+msgstr "ریست تمامی مقادیر"
+
+#: option/classes/admin-options.class.php:579
+#: option/classes/admin-options.class.php:702
+#, fuzzy
+#| msgid "Are you sure to reset this section options?"
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr "آیا مطمئن هستید که گزینه های این بخش را دوباره تنظیم می کنید؟"
+
+#: option/classes/admin-options.class.php:677
+#: option/fields/select/select.php:113 option/functions/actions.php:41
+msgid "No data available."
+msgstr ""
+
+#: option/classes/setup.class.php:603
+msgid "Are you sure?"
+msgstr "آیا مطمئن هستید؟"
+
+#: option/classes/setup.class.php:604
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: option/classes/setup.class.php:605
+msgid "Searching..."
+msgstr ""
+
+#: option/classes/setup.class.php:606
+msgid "No results found."
+msgstr ""
+
+#: option/classes/setup.class.php:707
+msgid "Oops! Not allowed."
+msgstr ""
+
+#: option/classes/setup.class.php:775 option/classes/setup.class.php:779
+msgid "Field not found!"
+msgstr ""
+
+#: option/fields/date/date.php:31
+msgid "From"
+msgstr ""
+
+#: option/fields/date/date.php:32
+msgid "To"
+msgstr ""
+
+#: option/fields/repeater/repeater.php:27
+msgid "Error: Field ID conflict."
+msgstr ""
+
+#: option/fields/repeater/repeater.php:48
+#: option/fields/repeater/repeater.php:76
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: option/fields/repeater/repeater.php:89
+msgid "You cannot add more."
+msgstr ""
+
+#: option/fields/repeater/repeater.php:90
+msgid "You cannot remove more."
+msgstr ""
+
+#: option/fields/switcher/switcher.php:20
+msgid "On"
+msgstr ""
+
+#: option/fields/switcher/switcher.php:21
+msgid "Off"
+msgstr ""
+
+#: option/functions/actions.php:16 option/functions/actions.php:68
+#: option/functions/actions.php:106 option/functions/actions.php:141
+#: option/functions/actions.php:170
+msgid "Error: Invalid nonce verification."
+msgstr ""
+
+#: option/functions/actions.php:72 option/functions/actions.php:110
+msgid "Error: Invalid key."
+msgstr ""
+
+#: option/functions/actions.php:114
+msgid "Error: The response is not a valid JSON response."
+msgstr ""
+
+#: option/functions/actions.php:174
+msgid "Error: Invalid term ID."
+msgstr ""
+
+#: option/functions/actions.php:180
+msgid "Error: You do not have permission to do that."
+msgstr ""
+
+#: option/functions/validate.php:14 option/functions/validate.php:86
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: option/functions/validate.php:32 option/functions/validate.php:106
+#, fuzzy
+#| msgid "enter a valid phoneumber"
+msgid "Please enter a valid number."
+msgstr "یک تلفن همراه معتبر وارد کنید"
+
+#: option/functions/validate.php:50 option/functions/validate.php:126
+msgid "This field is required."
+msgstr ""
+
+#: option/functions/validate.php:68 option/functions/validate.php:146
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: option/options/options.php:6
+msgid "Nirweb SMS General Settings"
+msgstr "تنظیمات عمومی"
+
+#: option/options/options.php:10
+msgid "NirWeb Team"
+msgstr "تیم نیروب"
+
+#: option/options/options.php:18 settings/settings.php:35
+msgid "Woocommerce"
+msgstr "ووکامرس"
+
+#: option/options/woocommerce/cancelled.php:4
+#: option/options/woocommerce/first-purchase.php:31
+msgid "Cancelled"
+msgstr "سفارشات لغو شده"
+
+#: option/options/woocommerce/cancelled.php:12
+#: option/options/woocommerce/completed.php:11
+#: option/options/woocommerce/failed.php:11
+#: option/options/woocommerce/on-hold.php:11
+#: option/options/woocommerce/processing.php:11
+#: option/options/woocommerce/refunded.php:12 option/options/wp/comments.php:10
+#: option/options/wp/learndash.php:15 option/options/wp/learnpress.php:15
+#: option/options/wp/user.php:10
+msgid "Admin"
+msgstr "مدیر سایت"
+
+#: option/options/woocommerce/cancelled.php:24
+#: option/options/woocommerce/cancelled.php:86
+#: option/options/woocommerce/cancelled.php:148
+#: option/options/woocommerce/completed.php:23
+#: option/options/woocommerce/completed.php:85
+#: option/options/woocommerce/completed.php:147
+#: option/options/woocommerce/failed.php:23
+#: option/options/woocommerce/failed.php:85
+#: option/options/woocommerce/failed.php:147
+#: option/options/woocommerce/on-hold.php:23
+#: option/options/woocommerce/on-hold.php:85
+#: option/options/woocommerce/on-hold.php:147
+#: option/options/woocommerce/processing.php:23
+#: option/options/woocommerce/processing.php:85
+#: option/options/woocommerce/processing.php:147
+#: option/options/woocommerce/refunded.php:24
+#: option/options/woocommerce/refunded.php:86
+#: option/options/woocommerce/refunded.php:148
+msgid "Pattern Code"
+msgstr "کد پترن"
+
+#: option/options/woocommerce/cancelled.php:30
+#: option/options/woocommerce/cancelled.php:92
+#: option/options/woocommerce/cancelled.php:162
+#: option/options/woocommerce/completed.php:29
+#: option/options/woocommerce/completed.php:91
+#: option/options/woocommerce/completed.php:161
+#: option/options/woocommerce/failed.php:29
+#: option/options/woocommerce/failed.php:91
+#: option/options/woocommerce/failed.php:161
+#: option/options/woocommerce/on-hold.php:29
+#: option/options/woocommerce/on-hold.php:91
+#: option/options/woocommerce/on-hold.php:161
+#: option/options/woocommerce/onsale.php:54
+#: option/options/woocommerce/processing.php:29
+#: option/options/woocommerce/processing.php:91
+#: option/options/woocommerce/processing.php:161
+#: option/options/woocommerce/refunded.php:30
+#: option/options/woocommerce/refunded.php:92
+#: option/options/woocommerce/refunded.php:162
+#: option/options/woocommerce/stock-management.php:80
+#: option/options/wp/post.php:31
+msgid "Activate the variables used in your pattern"
+msgstr "متغیر های استفاده شده در پترن خود را فعال کنید"
+
+#: option/options/woocommerce/cancelled.php:31
+#: option/options/woocommerce/cancelled.php:93
+#: option/options/woocommerce/cancelled.php:163
+#: option/options/woocommerce/completed.php:30
+#: option/options/woocommerce/completed.php:92
+#: option/options/woocommerce/completed.php:162
+#: option/options/woocommerce/failed.php:30
+#: option/options/woocommerce/failed.php:92
+#: option/options/woocommerce/failed.php:163
+#: option/options/woocommerce/on-hold.php:31
+#: option/options/woocommerce/on-hold.php:92
+#: option/options/woocommerce/on-hold.php:162
+#: option/options/woocommerce/processing.php:31
+#: option/options/woocommerce/processing.php:92
+#: option/options/woocommerce/processing.php:162
+#: option/options/woocommerce/refunded.php:31
+#: option/options/woocommerce/refunded.php:93
+#: option/options/woocommerce/refunded.php:163
+msgid ""
+"for mellipayamak use 0 for status , 1 for order_id , 2 for customer , 3 for "
+"price and 4 for order_items ,"
+msgstr ""
+"اگر از ملی پیامک استفاده میکنید ، از 0 برای وضعیت ، 1 برای شماره سفارش ، 2 "
+"برای نام مشتری ، 3 برای قیمت و 4 برای لیست خرید استفاده کنید"
+
+#: option/options/woocommerce/cancelled.php:37
+#: option/options/woocommerce/cancelled.php:99
+#: option/options/woocommerce/cancelled.php:169
+#: option/options/woocommerce/completed.php:36
+#: option/options/woocommerce/completed.php:98
+#: option/options/woocommerce/completed.php:168
+#: option/options/woocommerce/failed.php:36
+#: option/options/woocommerce/failed.php:98
+#: option/options/woocommerce/failed.php:168
+#: option/options/woocommerce/on-hold.php:36
+#: option/options/woocommerce/on-hold.php:98
+#: option/options/woocommerce/on-hold.php:168
+#: option/options/woocommerce/processing.php:36
+#: option/options/woocommerce/processing.php:98
+#: option/options/woocommerce/processing.php:168
+#: option/options/woocommerce/refunded.php:37
+#: option/options/woocommerce/refunded.php:99
+#: option/options/woocommerce/refunded.php:169
+msgid "Status"
+msgstr "وضعیت"
+
+#: option/options/woocommerce/cancelled.php:39
+#: option/options/woocommerce/cancelled.php:101
+#: option/options/woocommerce/cancelled.php:171
+#: option/options/woocommerce/completed.php:38
+#: option/options/woocommerce/completed.php:100
+#: option/options/woocommerce/completed.php:170
+#: option/options/woocommerce/failed.php:38
+#: option/options/woocommerce/failed.php:100
+#: option/options/woocommerce/failed.php:170
+#: option/options/woocommerce/on-hold.php:38
+#: option/options/woocommerce/on-hold.php:100
+#: option/options/woocommerce/on-hold.php:170
+#: option/options/woocommerce/processing.php:38
+#: option/options/woocommerce/processing.php:100
+#: option/options/woocommerce/processing.php:170
+#: option/options/woocommerce/refunded.php:39
+#: option/options/woocommerce/refunded.php:101
+#: option/options/woocommerce/refunded.php:171
+msgid "use variable status for order's status in your pattern"
+msgstr "برای وضعیت سفارش از متغیر status در پترن خود استفاده کنید"
+
+#: option/options/woocommerce/cancelled.php:44
+#: option/options/woocommerce/cancelled.php:106
+#: option/options/woocommerce/cancelled.php:176
+#: option/options/woocommerce/completed.php:43
+#: option/options/woocommerce/completed.php:105
+#: option/options/woocommerce/completed.php:175
+#: option/options/woocommerce/failed.php:43
+#: option/options/woocommerce/failed.php:105
+#: option/options/woocommerce/failed.php:175
+#: option/options/woocommerce/on-hold.php:43
+#: option/options/woocommerce/on-hold.php:105
+#: option/options/woocommerce/on-hold.php:175
+#: option/options/woocommerce/processing.php:43
+#: option/options/woocommerce/processing.php:105
+#: option/options/woocommerce/processing.php:175
+#: option/options/woocommerce/refunded.php:44
+#: option/options/woocommerce/refunded.php:106
+#: option/options/woocommerce/refunded.php:176
+msgid "Order"
+msgstr "سفارش"
+
+#: option/options/woocommerce/cancelled.php:46
+#: option/options/woocommerce/cancelled.php:108
+#: option/options/woocommerce/cancelled.php:178
+#: option/options/woocommerce/completed.php:45
+#: option/options/woocommerce/completed.php:107
+#: option/options/woocommerce/completed.php:177
+#: option/options/woocommerce/failed.php:45
+#: option/options/woocommerce/failed.php:107
+#: option/options/woocommerce/failed.php:177
+#: option/options/woocommerce/on-hold.php:45
+#: option/options/woocommerce/on-hold.php:107
+#: option/options/woocommerce/on-hold.php:177
+#: option/options/woocommerce/processing.php:45
+#: option/options/woocommerce/processing.php:107
+#: option/options/woocommerce/processing.php:177
+#: option/options/woocommerce/refunded.php:46
+#: option/options/woocommerce/refunded.php:108
+#: option/options/woocommerce/refunded.php:178
+msgid "use variable order_id for order's number in your pattern"
+msgstr "برای شماره سفارش از متغیر order_id در پترن خود استفاده کنید"
+
+#: option/options/woocommerce/cancelled.php:51
+#: option/options/woocommerce/cancelled.php:113
+#: option/options/woocommerce/cancelled.php:183
+#: option/options/woocommerce/completed.php:50
+#: option/options/woocommerce/completed.php:112
+#: option/options/woocommerce/completed.php:182
+#: option/options/woocommerce/failed.php:50
+#: option/options/woocommerce/failed.php:112
+#: option/options/woocommerce/failed.php:182
+#: option/options/woocommerce/on-hold.php:50
+#: option/options/woocommerce/on-hold.php:112
+#: option/options/woocommerce/on-hold.php:182
+#: option/options/woocommerce/processing.php:50
+#: option/options/woocommerce/processing.php:112
+#: option/options/woocommerce/processing.php:182
+#: option/options/woocommerce/refunded.php:51
+#: option/options/woocommerce/refunded.php:113
+#: option/options/woocommerce/refunded.php:183
+msgid "Customer Name"
+msgstr "نام مشتری"
+
+#: option/options/woocommerce/cancelled.php:53
+#: option/options/woocommerce/cancelled.php:115
+#: option/options/woocommerce/cancelled.php:185
+#: option/options/woocommerce/completed.php:52
+#: option/options/woocommerce/completed.php:114
+#: option/options/woocommerce/completed.php:184
+#: option/options/woocommerce/failed.php:52
+#: option/options/woocommerce/failed.php:114
+#: option/options/woocommerce/failed.php:184
+#: option/options/woocommerce/on-hold.php:52
+#: option/options/woocommerce/on-hold.php:114
+#: option/options/woocommerce/on-hold.php:184
+#: option/options/woocommerce/processing.php:52
+#: option/options/woocommerce/processing.php:114
+#: option/options/woocommerce/processing.php:184
+#: option/options/woocommerce/refunded.php:53
+#: option/options/woocommerce/refunded.php:115
+#: option/options/woocommerce/refunded.php:185
+msgid "use variable customer for the buyer's name in your pattern"
+msgstr "از متغیر customer برای نام کاربر در پترن خود استفاده کنید."
+
+#: option/options/woocommerce/cancelled.php:58
+#: option/options/woocommerce/cancelled.php:120
+#: option/options/woocommerce/cancelled.php:190
+#: option/options/woocommerce/completed.php:57
+#: option/options/woocommerce/completed.php:119
+#: option/options/woocommerce/completed.php:189
+#: option/options/woocommerce/failed.php:57
+#: option/options/woocommerce/failed.php:119
+#: option/options/woocommerce/failed.php:189
+#: option/options/woocommerce/on-hold.php:57
+#: option/options/woocommerce/on-hold.php:119
+#: option/options/woocommerce/on-hold.php:189
+#: option/options/woocommerce/processing.php:57
+#: option/options/woocommerce/processing.php:119
+#: option/options/woocommerce/processing.php:189
+#: option/options/woocommerce/refunded.php:58
+#: option/options/woocommerce/refunded.php:120
+#: option/options/woocommerce/refunded.php:190
+msgid "Price"
+msgstr "قيمت"
+
+#: option/options/woocommerce/cancelled.php:60
+#: option/options/woocommerce/cancelled.php:122
+#: option/options/woocommerce/cancelled.php:192
+#: option/options/woocommerce/completed.php:59
+#: option/options/woocommerce/completed.php:121
+#: option/options/woocommerce/completed.php:191
+#: option/options/woocommerce/failed.php:59
+#: option/options/woocommerce/failed.php:121
+#: option/options/woocommerce/failed.php:191
+#: option/options/woocommerce/on-hold.php:59
+#: option/options/woocommerce/on-hold.php:121
+#: option/options/woocommerce/on-hold.php:191
+#: option/options/woocommerce/processing.php:59
+#: option/options/woocommerce/processing.php:121
+#: option/options/woocommerce/processing.php:191
+#: option/options/woocommerce/refunded.php:60
+#: option/options/woocommerce/refunded.php:122
+#: option/options/woocommerce/refunded.php:192
+msgid "use variable price for the order's price in your pattern"
+msgstr "برای قیمت کل سفارش از متغیر price در پترن خود استفاده کنید"
+
+#: option/options/woocommerce/cancelled.php:65
+#: option/options/woocommerce/cancelled.php:127
+#: option/options/woocommerce/cancelled.php:197
+#: option/options/woocommerce/completed.php:64
+#: option/options/woocommerce/completed.php:126
+#: option/options/woocommerce/completed.php:196
+#: option/options/woocommerce/failed.php:64
+#: option/options/woocommerce/failed.php:126
+#: option/options/woocommerce/failed.php:196
+#: option/options/woocommerce/on-hold.php:64
+#: option/options/woocommerce/on-hold.php:126
+#: option/options/woocommerce/on-hold.php:196
+#: option/options/woocommerce/processing.php:64
+#: option/options/woocommerce/processing.php:126
+#: option/options/woocommerce/processing.php:196
+#: option/options/woocommerce/refunded.php:65
+#: option/options/woocommerce/refunded.php:127
+#: option/options/woocommerce/refunded.php:197
+msgid "Order Items"
+msgstr "موارد سفارش"
+
+#: option/options/woocommerce/cancelled.php:67
+#: option/options/woocommerce/cancelled.php:129
+#: option/options/woocommerce/cancelled.php:199
+#: option/options/woocommerce/completed.php:66
+#: option/options/woocommerce/completed.php:128
+#: option/options/woocommerce/completed.php:198
+#: option/options/woocommerce/failed.php:66
+#: option/options/woocommerce/failed.php:128
+#: option/options/woocommerce/failed.php:198
+#: option/options/woocommerce/on-hold.php:66
+#: option/options/woocommerce/on-hold.php:128
+#: option/options/woocommerce/on-hold.php:198
+#: option/options/woocommerce/processing.php:66
+#: option/options/woocommerce/processing.php:128
+#: option/options/woocommerce/processing.php:198
+#: option/options/woocommerce/refunded.php:67
+#: option/options/woocommerce/refunded.php:129
+#: option/options/woocommerce/refunded.php:199
+msgid "use variable orderitems for the order's items in your pattern"
+msgstr "برای محصولات سفارش از متغیر orderitems در پترن خود استفاده کنید"
+
+#: option/options/woocommerce/cancelled.php:74
+#: option/options/woocommerce/completed.php:73
+#: option/options/woocommerce/failed.php:73
+#: option/options/woocommerce/on-hold.php:73
+#: option/options/woocommerce/processing.php:73
+#: option/options/woocommerce/refunded.php:74
+msgid "Customer"
+msgstr "مشتری"
+
+#: option/options/woocommerce/cancelled.php:136
+#: option/options/woocommerce/completed.php:135
+#: option/options/woocommerce/failed.php:135
+#: option/options/woocommerce/on-hold.php:135
+#: option/options/woocommerce/processing.php:135
+#: option/options/woocommerce/refunded.php:136
+msgid "Vendor"
+msgstr "فروشنده"
+
+#: option/options/woocommerce/cancelled.php:155
+#: option/options/woocommerce/completed.php:154
+#: option/options/woocommerce/failed.php:154
+#: option/options/woocommerce/general.php:80
+#: option/options/woocommerce/on-hold.php:154
+#: option/options/woocommerce/processing.php:154
+#: option/options/woocommerce/refunded.php:155
+msgid "user meta"
+msgstr "یوزر متا (meta key )"
+
+#: option/options/woocommerce/cancelled.php:156
+#: option/options/woocommerce/completed.php:155
+#: option/options/woocommerce/failed.php:155
+#: option/options/woocommerce/on-hold.php:155
+#: option/options/woocommerce/processing.php:155
+#: option/options/woocommerce/refunded.php:156
+msgid "to access vendor's phone number , specify the meta key"
+msgstr "برای دسترسی به شماره تلفن فروشنده ، کلید متا را مشخص کنید"
+
+#: option/options/woocommerce/completed.php:3
+#: option/options/woocommerce/first-purchase.php:28
+msgid "Completed"
+msgstr "سفارشات تکمیل شده"
+
+#: option/options/woocommerce/failed.php:3
+#: option/options/woocommerce/first-purchase.php:30
+msgid "Failed"
+msgstr "سفارشات ناموفق"
+
+#: option/options/woocommerce/first-purchase.php:3
+msgid "First Purchase"
+msgstr "اولین خرید"
+
+#: option/options/woocommerce/first-purchase.php:9
+msgid "Activate to send a text when a user has done their purchase."
+msgstr "فعال سازی ارسال پیام بعد از اولین خرید کاربر"
+
+#: option/options/woocommerce/first-purchase.php:15
+#: option/options/wp/birthday.php:26 option/options/wp/comments.php:21
+#: option/options/wp/comments.php:44 option/options/wp/contact_7.php:30
+#: option/options/wp/gravity_form.php:35 option/options/wp/learndash.php:26
+#: option/options/wp/learndash.php:44 option/options/wp/learnpress.php:26
+#: option/options/wp/learnpress.php:44 option/options/wp/newsletters.php:27
+#: option/options/wp/post.php:14 option/options/wp/scheduled.php:24
+#: option/options/wp/user.php:21 option/options/wp/user.php:39
+msgid "Pattern"
+msgstr "کد پترن"
+
+#: option/options/woocommerce/first-purchase.php:16
+#: option/options/wp/birthday.php:27 option/options/wp/comments.php:45
+#: option/options/wp/user.php:22 option/options/wp/user.php:40
+msgid ""
+"use variable display_name to refer to user's name in your pattern.or use 0 "
+"if you are using melipayamak."
+msgstr ""
+"از متغیر display_name برای نام کاربر در پترن خود استفاده کنید.اگر از ملی "
+"پیامک استفاده میکنید از 0 استفاده کنید."
+
+#: option/options/woocommerce/first-purchase.php:24
+msgid "select the order status"
+msgstr "انتخاب وضعیت سفارش"
+
+#: option/options/woocommerce/first-purchase.php:26
+msgid "On Hold"
+msgstr "در انتظار بررسی"
+
+#: option/options/woocommerce/first-purchase.php:27
+#: option/options/woocommerce/processing.php:3
+msgid "Processing"
+msgstr "سفارشات در حال انجام"
+
+#: option/options/woocommerce/first-purchase.php:29
+#: option/options/woocommerce/refunded.php:4
+msgid "Refunded"
+msgstr "سفارشات مسترد شده"
+
+#: option/options/woocommerce/general.php:3 settings/settings.php:34
+#: settings/settings.php:39
+msgid "General settings"
+msgstr "تنظیمات عمومی"
+
+#: option/options/woocommerce/general.php:8
+#: option/options/woocommerce/onsale.php:34
+#: option/options/woocommerce/stock-management.php:60
+msgid "Select an option"
+msgstr "یک گزینه را انتخاب کنید"
+
+#: option/options/woocommerce/general.php:15 settings/settings.php:45
+msgid "SMS Panel"
+msgstr "پنل پیامکی"
+
+#: option/options/woocommerce/general.php:20
+msgid "IP PANEL username"
+msgstr "نام کاربری آی پی پنل"
+
+#: option/options/woocommerce/general.php:26
+msgid "IP PANEL password"
+msgstr "رمز عبور آی پی پنل"
+
+#: option/options/woocommerce/general.php:32
+msgid "IP PANEL sender number"
+msgstr "شماره فرستنده آی پی پنل"
+
+#: option/options/woocommerce/general.php:38
+msgid "Melipayamak username"
+msgstr "نام‌کاربری"
+
+#: option/options/woocommerce/general.php:44
+msgid "Melipayamak password"
+msgstr "رمز عبور "
+
+#: option/options/woocommerce/general.php:50
+msgid "RayganSMS username"
+msgstr "نام‌کاربری"
+
+#: option/options/woocommerce/general.php:56
+msgid "RayganSMS password"
+msgstr "رمز عبور "
+
+#: option/options/woocommerce/general.php:62
+msgid "SMS.IR api key"
+msgstr "api key"
+
+#: option/options/woocommerce/general.php:68
+msgid "SMS.IR Security key"
+msgstr "security key"
+
+#: option/options/woocommerce/general.php:74
+msgid "Your Phone Number"
+msgstr "شماره همراه  شما"
+
+#: option/options/woocommerce/general.php:81
+msgid "to access user's phone number , specify the meta key"
+msgstr "برای دسترسی به شماره تلفن کاربران ، کلید متا را مشخص کنید"
+
+#: option/options/woocommerce/on-hold.php:3
+msgid "On hold"
+msgstr "سفارشات در انتظار بررسی"
+
+#: option/options/woocommerce/onsale.php:3
+msgid "On Sale"
+msgstr "فروش ویژه"
+
+#: option/options/woocommerce/onsale.php:9
+msgid "when the product is on sale"
+msgstr "وقتی محصول تخفیف دار شد"
+
+#: option/options/woocommerce/onsale.php:15
+msgid "On Sale Pattern"
+msgstr "کد پترن فروش ویژه"
+
+#: option/options/woocommerce/onsale.php:21
+msgid "Do Not Show When On Sale"
+msgstr "وقتی محصول تخفیف دارد نشان نده"
+
+#: option/options/woocommerce/onsale.php:28
+msgid "On Sale Title"
+msgstr "عنوان فروش ویژه "
+
+#: option/options/woocommerce/onsale.php:36
+#: option/options/woocommerce/stock-management.php:62
+msgid "Under Product Thumbnail"
+msgstr "زیر تصویر شاخص محصول"
+
+#: option/options/woocommerce/onsale.php:37
+#: option/options/woocommerce/stock-management.php:63
+msgid "In Product Summary"
+msgstr "در خلاصه محصول"
+
+#: option/options/woocommerce/onsale.php:38
+#: option/options/woocommerce/stock-management.php:64
+msgid "use shortcode"
+msgstr "استفاده از کد کوتاه"
+
+#: option/options/woocommerce/onsale.php:40
+msgid "On sale Place "
+msgstr "محل فیلد تخفیف دار شد"
+
+#: option/options/woocommerce/onsale.php:48
+msgid "use shortcode [on_sale_nirweb]"
+msgstr "استفاده از کد کوتاه [on_sale_nirweb]"
+
+#: option/options/woocommerce/onsale.php:55
+#: option/options/woocommerce/stock-management.php:81
+msgid ""
+"for mellipayamak use 0 for product_title , 1 for product_price , 2 for "
+"sale_price , 3 for onsale_from and 4 for onsale_to ,"
+msgstr ""
+"اگر از ملی پیامک استفاده میکنید ، از 0 برای نام محصول، 1 برای قیمت محصول ، 2 "
+"برای قیمت فروش ویژه ، 3 برای تاریخ شروع تخفیف و 4 برای تاریخ اتمام تخفیف "
+"استفاده کنید"
+
+#: option/options/woocommerce/onsale.php:61
+#: option/options/woocommerce/stock-management.php:87
+msgid "Product Title"
+msgstr "عنوان محصول"
+
+#: option/options/woocommerce/onsale.php:63
+#: option/options/woocommerce/stock-management.php:89
+msgid "use variable product_title for product's title in your pattern"
+msgstr "از متغیر product_title برای عنوان محصول در پترن خود استفاده کنید"
+
+#: option/options/woocommerce/onsale.php:68
+#: option/options/woocommerce/stock-management.php:94
+msgid "Product Price"
+msgstr "قیمت محصول"
+
+#: option/options/woocommerce/onsale.php:70
+#: option/options/woocommerce/stock-management.php:96
+msgid "use variable product_price for product's price in your pattern"
+msgstr "از متغیر product_price برای قیمت متغیر در پترن خود استفاده کنید"
+
+#: option/options/woocommerce/onsale.php:75
+#: option/options/woocommerce/stock-management.php:101
+msgid "Sale Price"
+msgstr "قیمت فروش ویژه"
+
+#: option/options/woocommerce/onsale.php:77
+#: option/options/woocommerce/stock-management.php:103
+msgid "use variable sale_price for product's sale in your pattern"
+msgstr "از متغیر  sale_price برای قیمت تخفیف دار محصول استفاده کنید"
+
+#: option/options/woocommerce/onsale.php:82
+#: option/options/woocommerce/stock-management.php:108
+msgid "On Sale From"
+msgstr "تاریخ شروع تخفیف"
+
+#: option/options/woocommerce/onsale.php:84
+#: option/options/woocommerce/stock-management.php:110
+msgid ""
+"use variable onsale_from for product's on sale date from in your pattern"
+msgstr "از متغیر onsale_from برای تاریخ شروع تخفیف استفاده کنید"
+
+#: option/options/woocommerce/onsale.php:89
+#: option/options/woocommerce/stock-management.php:115
+msgid "On Sale To"
+msgstr "تاریخ پایان تخفیف"
+
+#: option/options/woocommerce/onsale.php:91
+#: option/options/woocommerce/stock-management.php:117
+msgid "use variable onsale_to for product's on sale date to in your pattern"
+msgstr "از متغیر onsale_to برای تاریخ پایان تخفیف استفاده کنید"
+
+#: option/options/woocommerce/stock-management.php:3
+msgid "Stock Management"
+msgstr "مدیریت موجودی"
+
+#: option/options/woocommerce/stock-management.php:9
+msgid "Low Stock"
+msgstr "کمبود موجودی"
+
+#: option/options/woocommerce/stock-management.php:11
+#: option/options/woocommerce/stock-management.php:24
+msgid "use variable product for the product name in your pattern"
+msgstr "از متغیر product برای نام محصول در پترن خود استفاده کنید"
+
+#: option/options/woocommerce/stock-management.php:16
+msgid "Low Stock Pattern Code"
+msgstr "کد پترن موجودی رو به اتمام"
+
+#: option/options/woocommerce/stock-management.php:22
+msgid "Out Of Stock"
+msgstr "اتمام موجودی"
+
+#: option/options/woocommerce/stock-management.php:29
+msgid "Out Of Stock Pattern Code"
+msgstr "کد پترن اتمام موجودی"
+
+#: option/options/woocommerce/stock-management.php:35
+msgid "when the product is back in stock"
+msgstr "وقتی محصول موجود شد"
+
+#: option/options/woocommerce/stock-management.php:41
+msgid "In Stock Pattern"
+msgstr "کد پترن موجود شد"
+
+#: option/options/woocommerce/stock-management.php:47
+msgid "Do Not Show When in Stock"
+msgstr "وقتی محصول موجود است نشان نده"
+
+#: option/options/woocommerce/stock-management.php:54
+msgid "In Stock Title"
+msgstr "عنوان موجود شد"
+
+#: option/options/woocommerce/stock-management.php:66
+msgid "In Stock Place "
+msgstr "محل فیلد موجود شد"
+
+#: option/options/woocommerce/stock-management.php:74
+msgid "use shortcode [in_stock_nirweb]"
+msgstr "استفاده از کد کوتاه [in_stock_nirweb]"
+
+#: option/options/wp/birthday.php:3
+msgid "Birthday congrats"
+msgstr "تبریک تولد"
+
+#: option/options/wp/birthday.php:8
+msgid ""
+"to access user's birthday specify birthday meta key and to send sms specify "
+"phone user meta.Make sure it's in Gregorian date."
+msgstr ""
+"برای دسترسی به تاریخ تولد ، یورز متا تاریخ تولد و برای ارسال پیام یوزر متا "
+"شماره تماس را از تنظیمات کلی مشخص کنید و اطمینان حاصل کنید که تاریخ تولد به "
+"صورت میلادی باشد."
+
+#: option/options/wp/birthday.php:13
+msgid "Activate to send happy birthday sms."
+msgstr "فعال سازی ارسال پیام تبریک تولد به کاربران"
+
+#: option/options/wp/birthday.php:20
+msgid "birthday meta key"
+msgstr "یوز متا تاریخ تولد"
+
+#: option/options/wp/comments.php:15
+msgid "Activate to notify you when you have a new comment."
+msgstr "فعال سازی اطلاع رسانی کامنت جدید"
+
+#: option/options/wp/comments.php:22
+msgid ""
+"use variable display_name to refer to the ID of the comment in your pattern."
+"or use 0 if you are using melipayamak."
+msgstr ""
+"از متغیر display_name برای آیدی کامنت در پترن خود استفاده کنید.اگر از ملی "
+"پیامک استفاده میکنید از 0 استفاده کنید."
+
+#: option/options/wp/comments.php:28 option/options/wp/learndash.php:33
+#: option/options/wp/learnpress.php:33 option/options/wp/user.php:28
+msgid "User"
+msgstr "کاربر"
+
+#: option/options/wp/comments.php:33
+msgid ""
+"Make sure you have selected user meta in general settings of the plugin to "
+"send notification to logged in users."
+msgstr ""
+"اطمینان حاصل کنید که یوزر متا در تنظیمات عمومیپلاگین برای ارسال اطلاع رسانی "
+"به کاربران وارد شده است."
+
+#: option/options/wp/comments.php:38
+msgid "Activate to notify user that you have replied their comment."
+msgstr "فعال سازی اطلاع رسانی کاربران از پاسخ دیدگاه خود"
+
+#: option/options/wp/comments.php:51
+msgid "Checkbox text"
+msgstr "متن چک باکس"
+
+#: option/options/wp/contact_7.php:13
+msgid "Contact 7"
+msgstr "فرم تماس 7"
+
+#: option/options/wp/contact_7.php:18
+msgid ""
+"activate this section to notify you when a contact form is submitted.Make "
+"sure you have the plugin contact form 7 installed and activated."
+msgstr ""
+"با فعال سازی این قسمت میتوانید از ارسال فرم جدید آگاه شوید ابتدا افزونه فرم "
+"تماس 7 را نصب و فعال کنید ."
+
+#: option/options/wp/contact_7.php:24 option/options/wp/gravity_form.php:29
+msgid "Activate Notification"
+msgstr "اطلاع رسانی"
+
+#: option/options/wp/contact_7.php:31 option/options/wp/gravity_form.php:36
+msgid ""
+"use variable form_id in your pattern to refer to the id of the form and use "
+"0 if you are using melipayamak."
+msgstr ""
+"از متغیر form_id برای آیدی فرم در پترن خود استفاده کنید.اگر از ملی پیامک "
+"استفاده میکنید از 0 استفاده کنید."
+
+#: option/options/wp/contact_7.php:37 option/options/wp/gravity_form.php:42
+msgid "specify the form and phonenumber"
+msgstr "فرم و شماره همراه را وارد کنید"
+
+#: option/options/wp/contact_7.php:43 option/options/wp/gravity_form.php:48
+msgid "Your phone Number"
+msgstr "شماره همراه  شما"
+
+#: option/options/wp/contact_7.php:48 option/options/wp/gravity_form.php:53
+msgid "select the form"
+msgstr "فرم را انتخاب کنید"
+
+#: option/options/wp/gravity_form.php:12
+msgid "Gravity Form"
+msgstr "گرویتی فرم"
+
+#: option/options/wp/gravity_form.php:17
+msgid ""
+"activate this section to notify you when a gravity form is submitted.Make "
+"sure you have the plugin gravity form installed and activated."
+msgstr ""
+"در این قسمت میتوانید از فرم های جدید ارسال شده از گرویتی فرم اگاه شوید.ابتدا "
+"از نصب و فعال بودن افزونه گرویتی فرم مطمئن شوید."
+
+#: option/options/wp/learndash.php:3
+msgid "LearnDash"
+msgstr "لرن دش"
+
+#: option/options/wp/learndash.php:8
+msgid "Make sure you have LearnDash installed and activated."
+msgstr "اطمینان حاصل کنید که learndash را نصب و فعال کرده باشید."
+
+#: option/options/wp/learndash.php:20
+msgid "Activate to notify you when a student has completed their course."
+msgstr "فعال سازی اطلاع رسانی اتمام دوره کاربر"
+
+#: option/options/wp/learndash.php:27 option/options/wp/learndash.php:45
+#: option/options/wp/learnpress.php:27 option/options/wp/learnpress.php:45
+msgid ""
+"use display_name for user's display name and course for course's title.if "
+"you are using melipayamak use 0 for user's display name and 1 for course "
+"title"
+msgstr ""
+"از متغیر display_name برای نام کاربر و course برای نام محصول در پترن خود "
+"استفاده کنید.اگر از ملی پیامک استفاده میکنید از 0 برای نام نمایشی کاربر و 1 "
+"برای نام دوره  استفاده کنید"
+
+#: option/options/wp/learndash.php:38
+msgid "Activate to send user sms when they have completed their course."
+msgstr "فعال سازی ارسال پیام بعد از اتمام دوره کاربر"
+
+#: option/options/wp/learnpress.php:3
+msgid "LearnPress"
+msgstr "لرن پرس"
+
+#: option/options/wp/learnpress.php:8
+msgid "Make sure you have LearnPress installed and activated."
+msgstr "اطمینان حاصل کنید که LearnPress را نصب و فعال کرده باشید."
+
+#: option/options/wp/learnpress.php:20
+msgid "Activate to notify you when a new student has enrolled."
+msgstr "فعال سازی اطلاع رسانی ثبت نام کاربر در دوره"
+
+#: option/options/wp/learnpress.php:38
+msgid "Activate to send user successful enrollment sms."
+msgstr "فعال سازی ارسال پیام ثبت نام موفق در دوره "
+
+#: option/options/wp/newsletters.php:8
+msgid "Activate newsletter."
+msgstr "خبرنامه را فعال کنید."
+
+#: option/options/wp/newsletters.php:14
+msgid ""
+"use this shortcode to create form to get users's phone numbers : "
+"[nirweb_newsletter]  "
+msgstr ""
+"از شرتکد   [nirweb_phone_form]    برای ایجاد فرم دریافت شماره تماس کاربر "
+"استفاده کنید"
+
+#: option/options/wp/newsletters.php:20
+msgid "Activate to confrim user's phone number."
+msgstr "فعال سازی  ارسال پیام تایید شماره موبایل"
+
+#: option/options/wp/newsletters.php:28
+msgid "use variable code in your pattern to send verification code."
+msgstr ""
+"برای ارسال پیامک تاییدیه شماره موبایل از متغیر code در پترن خود استفاده "
+"کنید ، اگر از ملی پیامک استفاده میکنید از متغیر 0 استفاده کنید"
+
+#: option/options/wp/phone.php:3
+msgid "phone"
+msgstr ""
+
+#: option/options/wp/phone.php:8
+#, fuzzy
+#| msgid "use shortcode"
+msgid "active phone shortcode."
+msgstr "استفاده از کد کوتاه"
+
+#: option/options/wp/phone.php:9
+msgid "user's phone numbers will be saved and shown in admin panel."
+msgstr "شماره تلفن کاربر ذخیره خواهد شد و در پنل مدیریت نشان داده شده است."
+
+#: option/options/wp/phone.php:16
+#, fuzzy
+#| msgid "use shortcode [on_sale_nirweb]"
+msgid "use shortcode [phone_box_nirweb]"
+msgstr "استفاده از کد کوتاه [on_sale_nirweb]"
+
+#: option/options/wp/post.php:3
+msgid "New Post"
+msgstr "پست جدید"
+
+#: option/options/wp/post.php:8
+msgid "Activate to notify users when a new post is published."
+msgstr "اطلاع رسانی به کاربران از انتشار پست جدید"
+
+#: option/options/wp/post.php:22
+msgid "Post Type"
+msgstr "نوع پست"
+
+#: option/options/wp/post.php:32
+msgid ""
+"for mellipayamak use 0 for title , 1 for excerpt , 2 for author , 3 for guid,"
+msgstr ""
+"اگر از ملی پیامک استفاده میکنید ، از 0 برای عنوان ، 1 خلاصه مطلب ، 2 برای "
+"نام نویسنده ، 3 برای لینک کوتاه پست استفاده کنید"
+
+#: option/options/wp/post.php:38
+msgid "Title"
+msgstr "عنوان"
+
+#: option/options/wp/post.php:40
+msgid "use variable post_title for the title of the post in your pattern"
+msgstr "از متغیر post_title برای عنوان پست در پترن خود استفاده کنید"
+
+#: option/options/wp/post.php:45
+msgid "Excerpt"
+msgstr "خلاصه مطلب"
+
+#: option/options/wp/post.php:47
+msgid "use variable post_excerpt for the excerpt of the post in your pattern"
+msgstr "از متغیر post_excerpt برای خلاصه مطلب در پترن خود استفاده کنید"
+
+#: option/options/wp/post.php:52
+msgid "Author"
+msgstr "نویسنده"
+
+#: option/options/wp/post.php:54
+msgid "use variable post_author for the author of the post in your pattern"
+msgstr "از متغیر post_author برای نام نویسنده در پترن خود استفاده کنید"
+
+#: option/options/wp/post.php:59
+msgid "Guid"
+msgstr "لینک کوتاه"
+
+#: option/options/wp/post.php:61
+msgid "use variable guid for the short link of the post in your pattern"
+msgstr "از متغیر guid برای لینک کوتاه نوشته در پترن خود استفاده کنید"
+
+#: option/options/wp/scheduled.php:3 option/options/wp/scheduled.php:8
+msgid "Scheduled SMS"
+msgstr "پیام زمانبندی شده"
+
+#: option/options/wp/scheduled.php:19
+msgid "Users"
+msgstr "کاربران"
+
+#: option/options/wp/scheduled.php:33
+msgid "Date"
+msgstr "تاریخ"
+
+#: option/options/wp/user.php:3
+msgid "User Registeration"
+msgstr "ثبت نام کاربر"
+
+#: option/options/wp/user.php:15
+msgid "Activate to notify you when a user has registered."
+msgstr "فعال سازی اطلاع رسانی ثبت نام کابران"
+
+#: option/options/wp/user.php:33
+msgid "Activate to send a welcome text to the user."
+msgstr "فعال سازی ارسال پیام خوش آمد گویی به کاربران"
+
+#: option/options/wp/wordpress_update.php:3
+msgid "phone registration"
+msgstr "فیلد تماس ثبت نام"
+
+#: option/options/wp/wordpress_update.php:8
+msgid "Add phone number field to wordpress registration form."
+msgstr "افزودن فیلد شماره موبایل به فیلد پیش فرض ثبت نام وردپرس"
+
+#: option/options/wp/wordpress_update.php:9
+#: option/options/wp/wordpress_update.php:25
+msgid "user's phone number will be saved in nirweb_phone user meta."
+msgstr "شماره تماس کاربر پس از ثبت نام در یوزر متا nirweb_phone ذخیره می شود."
+
+#: option/options/wp/wordpress_update.php:16
+#: option/options/wp/wordpress_update.php:32
+msgid "require phone number field."
+msgstr "الزامی کردن فیلد شماره تماس"
+
+#: option/options/wp/wordpress_update.php:24
+msgid "Add phone number field to woocommerce registration form."
+msgstr "افزودن فیلد شماره موبایل به فیلد پیش فرض ثبت نام ووکامرس"
+
+#: settings/settings.php:48
+#, fuzzy
+#| msgid "SMS Panel"
+msgid "IP Panel"
+msgstr "پنل پیامکی"
+
+#: settings/settings.php:49
+#, fuzzy
+#| msgid "Melipayamak username"
+msgid "Melipayamak"
+msgstr "نام‌کاربری"
+
+#: settings/settings.php:50
+msgid "Sms.ir"
+msgstr ""
+
+#: settings/settings.php:55
+msgid "Username"
+msgstr "نام کاربری"
+
+#: settings/settings.php:56
+msgid "enter api key for melipayamak."
+msgstr "اگر از ملی پیامک استفاده میکنید api key را وارد کنید "
+
+#: settings/settings.php:62
+msgid "Password"
+msgstr "رمزعبور"
+
+#: settings/settings.php:63
+msgid "enter security key for melipayamak."
+msgstr "اگر از ملی پیامک استفاده میکنید  security key را وارد کنید "
+
+#: settings/settings.php:69
+msgid "sender number if you are using ip panel"
+msgstr "شماره فرستنده آی پی پنل "
+
+#: settings/settings.php:75
+msgid "Admin phone number"
+msgstr "شماره تلفن مدیر"
+
+#. Plugin Name of the plugin/theme
+msgid "پیامک رایگان ووکامرس و وردپرس نیر وب"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://nirweb.ir/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "کاملترین افزونه پیامک ووکامرس و وردپرس"
+msgstr ""
+
+#. Author of the plugin/theme
+#, fuzzy
+#| msgid "NirWeb Team"
+msgid "NirWeb"
+msgstr "تیم نیروب"
+
+#~ msgid "Success. Imported backup options."
+#~ msgstr "تنظیمات با موفقیت وارد شد."
+
+#~ msgid "Nirweb team"
+#~ msgstr "تیم نیروب"
+
+#~ msgid "Settings have changed, you should save them!"
+#~ msgstr "تنظیمات تغییر کرده اند ، باید آنها را ذخیره کنید!"
+
+#~ msgid "Search option(s)"
+#~ msgstr "جستجوی گزینه‌(ها)"
+
+#~ msgid "nirweb"
+#~ msgstr "نیروب"
+
+#~ msgid ""
+#~ "Through this section you can send sms to all users.Make sure you have "
+#~ "specified the user meta in general settings."
+#~ msgstr ""
+#~ "در این قسمت میتوانید با مشخص کردن user meta در تنظیمات کلی افزونه، به "
+#~ "تمامی کاربران پیام ارسال کنید."
+
+#~ msgid "specify the meta key in general settings and send sms to all users."
+#~ msgstr ""
+#~ "متا کی شماره تماس کاربران را در تنظیمات عمومی مشخص کنید و به همه کاربران "
+#~ "پیام بفرستید."
+
+#~ msgid "ID"
+#~ msgstr "شناسه"
+
+#~ msgid "Export"
+#~ msgstr "خروجی"
+
+#~ msgid "Export Phone numbers specific to a product"
+#~ msgstr "خروجی csv شماره تماس ها مشتریان محصول ووکامرس"
+
+#~ msgid ""
+#~ "Export All Phone numbers who have submitted their phone number in "
+#~ "comments."
+#~ msgstr ""
+#~ "خروجی csv شماره تماس کاربرانی که شماره خود را در پاسخم اطلاع بده دیدگاه "
+#~ "ها ثبت کرده اند"
+
+#~ msgid "Post"
+#~ msgstr "پست"
+
+#~ msgid "Export All phone numbers who registered in newsletter"
+#~ msgstr ""
+#~ "خروجی csv شماره تماس کاربرانی که شماره خود را در خبرنامه نیروب ثبت کرده "
+#~ "اند."
+
+#~ msgid ""
+#~ "Export All Customers' who registered their phone for when the product in "
+#~ "on sale"
+#~ msgstr ""
+#~ "خروجی csv شماره مشتریانی که شماره خود را برای زمانی که محصول حراج شد ثبت "
+#~ "کرده اند."
+
+#~ msgid "Product"
+#~ msgstr "عنوان محصول"
+
+#~ msgid ""
+#~ "Export All Customers' who registered their for when th product is back in "
+#~ "stock"
+#~ msgstr ""
+#~ "خروجی csv شماره تماس مشتریانی که شماره خود را برای زمانی که محصول موجود "
+#~ "شد ثبت کرده اند."
+
+#~ msgid "verification code"
+#~ msgstr "کد تأیید"
+
+#~ msgid "we already have your number."
+#~ msgstr "ما شماره ي شما رو داريم"
+
+#~ msgid "The verification code has already been sent and it's valid."
+#~ msgstr "کد تأیید از قبل ارسال شده و معتبر است."
+
+#~ msgid "You phoneumber is successfully saved."
+#~ msgstr "شماره تماس شما با موفقیت ذخیره شد ."
+
+#~ msgid "Your code has expired."
+#~ msgstr "کد شما منقضی شده است."
+
+#~ msgid "the code is invalid."
+#~ msgstr "کد نامعتبر است."
+
+#~ msgid "Notify me when answered."
+#~ msgstr "وقتي جواب داده شد بهم خبر بده"
+
+#~ msgid "Phone number"
+#~ msgstr "شماره همراه  شما"
+
+#~ msgid "<strong>ERROR</strong>: phone number is missing"
+#~ msgstr "خطا ! شماره تماس خود را وارد کنید"
+
+#~ msgid "Nirweb SMS"
+#~ msgstr "پیامک نیروب"
+
+#~ msgid "Export Newsletter Phone Numbers"
+#~ msgstr "خروجی شماره های تماس خبرنامه"
+
+#~ msgid "Export Billing  Phone Numbers Product Based"
+#~ msgstr "خروجی شماره تماس مشتریان یک محصول"
+
+#~ msgid "Export All Billing Phone Numbers"
+#~ msgstr "خروجی شماره تماس مشتریان"
+
+#~ msgid "for raygansms write your text and use the keys below,"
+#~ msgstr ""
+#~ "برای raygansms متن خود را بنویسید و از کلید های زیر در متن خود استفاده "
+#~ "کنید.برای مثال customername عزیز سفارش شما در وضعیت status قرار گرفت"
+
+#, fuzzy
+#~| msgid "Export Billing Phones"
+#~ msgid "Export Newsletter Phones"
+#~ msgstr "خروجی شماره تماس مشتریان"
+
+#~ msgid ""
+#~ "use product_title for product's title in your pattern.if you are using "
+#~ "melipayamak use 0."
+#~ msgstr ""
+#~ "از متغیر disaply_name برای نام کاربر در پترن خود استفاده کنید . اگر از "
+#~ "ملی پیامک استفاده میکنید از 0 استفاده کنید."
+
+#~ msgid "Groups"
+#~ msgstr "گروه ها"
+
+#~ msgid "All users"
+#~ msgstr "همه کاربران"
+
+#~ msgid "user"
+#~ msgstr "کاربر"
+
+#~ msgid ""
+#~ "Through this section you can send sms to One user.Make sure you have "
+#~ "specified the user meta in general settings."
+#~ msgstr ""
+#~ "در این قسمت میتوانید پیام به کاربر خاص ارسال کنید.ابتدا از انتخاب یوزر "
+#~ "متا در تنظیمات عمومی افزونه اطمینان حاصل کنید."
+
+#~ msgid "Select the user you want to text"
+#~ msgstr "کاربر را انتخاب کنید"
+
+#~ msgid ""
+#~ "Through this section you can send sms to all user who has bought this "
+#~ "product before.Make sure you have specified the user meta in general "
+#~ "settings."
+#~ msgstr ""
+#~ "در این قسمت میتوانید به تمام کسانی که این محصول را قبلا خریداری کرده اند "
+#~ "پیام دهید"
+
+#~ msgid ""
+#~ "Through this section you can export user's phone numbers who has bought "
+#~ "this product before."
+#~ msgstr ""
+#~ "در این قسمت میتوانید از شماره کاربرانی که قبلا این محصول را خریداری کرده "
+#~ "اند خروجی بگیرید."
+
+#~ msgid "SMART SMS Settings"
+#~ msgstr "تنظیمات پیامک حرفه ای وردپرس"
+
+#~ msgid "Orders"
+#~ msgstr "سفارشات"
+
+#~ msgid "Smart SMS For Wordpress"
+#~ msgstr "پیامک حرفه ای وردپرس"
+
+#~ msgid "enter a numerical value"
+#~ msgstr "یک مقدار عددی وارد کنید"
+
+#~ msgid "Seller"
+#~ msgstr "فروشنده"
+
+#~ msgid ""
+#~ "use variable product for the product name and product_id for the ID of "
+#~ "the product in your pattern"
+#~ msgstr ""
+#~ "از متغیر product برای نام محصول و product_id برای شناسه محصول در پترن خود "
+#~ "استفاده کنید"

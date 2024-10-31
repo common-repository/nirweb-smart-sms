@@ -1,0 +1,185 @@
+/**
+ * 05. Widget
+ */
+.control-section{
+
+  .CFSSMARTSMS-field{
+    padding: 0;
+
+    .CFSSMARTSMS-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 6px;
+
+      h4{
+        display: block;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: 600;
+        color: inherit;
+      }
+    }
+
+    .CFSSMARTSMS-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .CFSSMARTSMS-help{
+    top: -5px;
+    right: -5px;
+  }
+
+  .CFSSMARTSMS-field-select select{
+    width: 100%;
+  }
+
+  .CFSSMARTSMS-field-heading{
+    color: inherit;
+    font-size: 14px;
+    line-height: 1em;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .CFSSMARTSMS-field-subheading{
+    color: inherit;
+    font-size: 11px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px 15px;
+  }
+
+  .CFSSMARTSMS-subtitle-text{
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .CFSSMARTSMS-field-submessage .CFSSMARTSMS-submessage{
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .CFSSMARTSMS-fieldset{
+
+    .CFSSMARTSMS-field-submessage .CFSSMARTSMS-submessage,
+    .CFSSMARTSMS-field-heading,
+    .CFSSMARTSMS-field-subheading{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .CFSSMARTSMS-field-date,
+  .CFSSMARTSMS-field-datetime{
+
+    label{
+      display: block;
+    }
+
+    .CFSSMARTSMS--to{
+      margin-top: 4px;
+      margin-left: 0;
+    }
+  }
+
+  .CFSSMARTSMS-field-sorter{
+
+    ul li{
+      padding: 5px;
+    }
+
+    .CFSSMARTSMS-modules{
+      float: none;
+      width: 100%;
+    }
+
+    .CFSSMARTSMS-modules:first-child{
+      padding-right: 0;
+      padding-bottom: 15px;
+    }
+  }
+
+  .CFSSMARTSMS-field-background{
+
+    .CFSSMARTSMS--background-attributes{
+      flex-direction: column;
+    }
+  }
+
+  .CFSSMARTSMS-field-spacing{
+    input{
+      width: 90px;
+    }
+  }
+
+  .CFSSMARTSMS-field-border{
+
+    .CFSSMARTSMS--input{
+      flex: 1 50%;
+    }
+
+    input,
+    select{
+      width: 100%;
+    }
+  }
+
+  .CFSSMARTSMS-field-spinner{
+    input{
+      width: 50px;
+    }
+  }
+
+  .CFSSMARTSMS-field-number{
+
+    .CFSSMARTSMS--wrap{
+      width: 100%;
+    }
+  }
+
+  .CFSSMARTSMS-field-backup{
+
+    .CFSSMARTSMS-export-data{
+      display: none;
+    }
+  }
+
+  .CFSSMARTSMS-field-fieldset{
+
+    .CFSSMARTSMS-fieldset-content{
+      border-color: #e5e5e5;
+    }
+  }
+
+  .CFSSMARTSMS-tabbed-content,
+  .CFSSMARTSMS-sortable-content,
+  .CFSSMARTSMS-repeater-content,
+  .CFSSMARTSMS-fieldset-content,
+  .CFSSMARTSMS-cloneable-content,
+  .CFSSMARTSMS-accordion-content{
+
+    > .CFSSMARTSMS-field{
+      padding: 10px;
+
+      .CFSSMARTSMS-title{
+        margin-bottom: 5px;
+      }
+
+      h4{
+        font-size: 12px;
+      }
+    }
+  }
+
+  .CFSSMARTSMS-depend-hidden.CFSSMARTSMS-depend-on{
+    display: none !important;
+  }
+
+  .CFSSMARTSMS-depend-visible.CFSSMARTSMS-depend-on{
+    border-top: 0 !important;
+  }
+}

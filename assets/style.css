@@ -1,0 +1,82 @@
+.nirweb_smart_sms_phone_fields{
+    display: none;
+}
+.nirweb_smart_sms_phone_fields.show{
+    display: block;
+}
+.nirweb_smart_sms_phone_fields input{
+    margin: 12px 0 0 0;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    outline: 0;
+    font-family: inherit;
+    font-size: 15px;
+}
+.nirweb_smart_sms_phone_fields button{
+    margin: 10px 0 0 0;
+    border: 1px solid #c36;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    color : #c36;
+    outline: 0;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: inherit;
+}
+.nirweb_smart_sms_phone_fields button.loading{
+    opacity: 0.5;
+    cursor: default;
+}
+.nirweb_smart_sms_response{
+    font-size: 14px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.nirweb_smart_sms_response.success{
+    border: 1px solid #54d254;
+    color: #078107;
+}
+.nirweb_smart_sms_response.fail{
+    border: 1px solid red;
+    color: #c30f0f;
+}
+.nirweb_comment_notif > input{
+    outline: 0;
+    margin: 7px 0;
+    display: none;
+}
+.nirweb_not_logged_in.show{
+    display:block;
+}
+.nirweb_newsletter_phone button.loading{
+    opacity: 0.5;
+    cursor: default;
+}
+.nirweb_newsletter_phone{display: flex;align-items: center;}
+.nirweb_newsletter_phone input{outline: 0;border: 1px solid #ccc;height: 30px;padding: 0 10px;margin-left: 10px;border-radius: 3px;font-family: inherit;}
+.nirweb_newsletter_phone button{height: 30px;cursor: pointer;width: 50px;background: #00babe;color: #fff;border: 0;border-radius: 3px;}
+.nirweb_smart_sms_response span.fail{
+    border: 1px solid red;
+    color: #c30f0f;
+    padding: 5px 25px;
+    width: 100%;
+}
+.nirweb_smart_sms_response span.success{
+    border: 1px solid #54d254;
+    color: #078107;
+    padding: 5px 25px;
+    width: 100%;
+}
+.nirweb_newsletter_code{display: flex;align-items: center;}
+.nirweb_newsletter_code input{outline: 0;border: 1px solid #ccc;height: 30px;padding: 0 10px;margin-left: 10px;border-radius: 3px;font-family: inherit;}
+.nirweb_newsletter_code button{height: 30px;cursor: pointer;width: 50px;background: #00babe;color: #fff;border: 0;border-radius: 3px;}

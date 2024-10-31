@@ -1,0 +1,157 @@
+/**
+ * 12. Responsive
+ */
+@media only screen and (max-width:1200px){
+
+  .CFSSMARTSMS-metabox{
+
+    .CFSSMARTSMS-field{
+
+      .CFSSMARTSMS-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .CFSSMARTSMS-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:782px){
+
+  .CFSSMARTSMS-header-inner{
+    text-align: center;
+
+    h1{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .CFSSMARTSMS-form-result{
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .CFSSMARTSMS-search,
+  .CFSSMARTSMS-header-right,
+  .CFSSMARTSMS-header-left{
+    width: 100%;
+  }
+
+  .CFSSMARTSMS-search{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .CFSSMARTSMS-footer{
+    text-align: center;
+  }
+
+  .CFSSMARTSMS-buttons{
+    float: none;
+  }
+
+  .CFSSMARTSMS-copyright{
+    float: none;
+    margin-top: 10px;
+  }
+
+  .CFSSMARTSMS-nav,
+  .CFSSMARTSMS-expand-all,
+  .CFSSMARTSMS-reset-section,
+  .CFSSMARTSMS-nav-background{
+    display: none !important;
+  }
+
+  .CFSSMARTSMS-nav-normal + .CFSSMARTSMS-content{
+    margin-left: 0;
+  }
+
+  .CFSSMARTSMS-section-title,
+  .CFSSMARTSMS-section{
+    display: block !important;
+  }
+
+  .CFSSMARTSMS-field{
+
+    .CFSSMARTSMS-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .CFSSMARTSMS-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .CFSSMARTSMS-field-color{
+
+    .button.wp-picker-clear{
+      padding: 0 8px;
+      line-height: 2.14285714;
+      min-height: 32px;
+    }
+  }
+
+  .CFSSMARTSMS-profile-options,
+  .CFSSMARTSMS-taxonomy-edit-fields{
+
+    > .CFSSMARTSMS-field{
+
+      > .CFSSMARTSMS-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      > .CFSSMARTSMS-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+
+  .CFSSMARTSMS-nav-menu-options{
+
+    > .CFSSMARTSMS-fields{
+      margin-left: -10px;
+      margin-right: -10px;
+
+      > .CFSSMARTSMS-field{
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 782px) {
+
+  .CFSSMARTSMS-modal{
+
+    .CFSSMARTSMS-modal-inner{
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-height: 750px) {
+
+  .CFSSMARTSMS-modal{
+
+    .CFSSMARTSMS-modal-inner{
+      height: auto;
+    }
+
+    .CFSSMARTSMS-modal-content{
+      height: calc(100vh - 200px);
+    }
+  }
+}
